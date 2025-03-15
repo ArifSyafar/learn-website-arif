@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - 2A TI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .carousel-item img {
+        max-height: 350px;
+        width: 100%;
+        object-fit: contain;
+      }
+      .feature-card:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+      }
+      .btn-hover:hover {
+        background-color: #ffcc00 !important;
+        color: black !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Kelas 2A Teknologi Informasi</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang Kelas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="koleksi.html">Koleksi Foto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+      <h1>Selamat Datang di Kelas 2A Teknologi Informasi</h1>
+      <p>Kelas terbaik untuk belajar website bersama!</p>
+      <a href="tentang.html" class="btn btn-light btn-hover">Pelajari Lebih Lanjut</a>
+    </header>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-interval="2000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/pngwing.com (29).png" class="d-block w-100" alt="Foto 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/pngwing.com (30).png" class="d-block w-100" alt="Foto 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/pngwing.com (59).png" class="d-block w-100" alt="Foto 3" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Fitur Kelas -->
+    <section class="container my-5">
+      <h2 class="text-center">Kenapa Memilih Teknologi Informasi PNM?</h2>
+      <div class="row text-center mt-4">
+        <div class="col-md-4">
+          <div class="card feature-card p-3">
+            <h3>Materi Berkualitas</h3>
+            <p>Kami menyediakan materi terbaik untuk meningkatkan skill web development.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card p-3">
+            <h3>Pengajar Profesional</h3>
+            <p>Belajar dari pengajar berpengalaman di dunia IT.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card p-3">
+            <h3>Komunitas Supportif</h3>
+            <p>Bergabung dengan komunitas yang saling mendukung dalam belajar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testi -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center">Apa Kata Mereka?</h2>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="card p-3">
+              <p>"Kelas ini sangat membantu saya dalam memahami pengembangan web!"</p>
+              <h5>- Budi Santoso</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3">
+              <p>"Materinya mudah dipahami dan sangat menarik."</p>
+              <h5>- Siti Aisyah</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3">
+              <p>"Belajar di kelas 2A TI benar-benar pengalaman yang luar biasa!"</p>
+              <h5>- Andi Rahman</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+      <p>&copy; 2025 Arif Syafarian - NIM.243307005</p>
+      <p>Follow kami di:
+        <a href="#" class="text-white">Instagram</a> |
+        <a href="#" class="text-white">Facebook</a>
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
